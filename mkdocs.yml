@@ -1,9 +1,13 @@
 site_name: SimpleHome-Wiki
-repo_url: https://github.com/Simple-Home/docs/tree/gh-pages/
+repo_url: https://github.com/Simple-Home/docs/
 site_url: https://simple-home.github.io/docs/
+edit_uri: edit/master/docs/
 theme:
   name: material
-  logo: https://raw.githubusercontent.com/Simple-Home/SimpleHome-Client/master/public/img/logo-login.svg
+  logo: https://raw.githubusercontent.com/Simple-Home/SimpleHome-Client/master/src/assets/logo.png
+  palette:
+    accent: light green
+    primary: light green
 markdown_extensions:
   - codehilite
   

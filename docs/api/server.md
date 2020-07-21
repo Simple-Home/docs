@@ -1,4 +1,4 @@
-Foloving API call will giwe you basic information abouth server status and utilization.
+Foloving API call will give you basic information abouth server status and utilization.
 
 ***
 

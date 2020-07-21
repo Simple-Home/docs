@@ -59,6 +59,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#flip-the-switch" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -250,9 +255,47 @@
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Widgets
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
     <a href="./" title="Widgets" class="md-nav__link md-nav__link--active">
       Widgets
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flip-the-switch" class="md-nav__link">
+    Flip the Switch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-device-detail-data" class="md-nav__link">
+    Get Device Detail Data
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -365,6 +408,43 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flip-the-switch" class="md-nav__link">
+    Flip the Switch
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get-device-detail-data" class="md-nav__link">
+    Get Device Detail Data
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -382,6 +462,7 @@
                 
                 <p>Foloving API calls will give you basic information all senzors connected to SimpleHome server.</p>
 <hr />
+<h3 id="flip-the-switch">Flip the Switch</h3>
 <p><code>POST: example.com/api/widgets/{widgetId}/run</code></p>
 <p><strong>Authentication Reguired: YES</strong></p>
 <p><strong>Example Response:</strong></p>
@@ -391,16 +472,8 @@
 </code></pre></div>
 
 
-<p><code>POST: example.com/api/widgets/{widgetId}/check</code></p>
-<p><strong>Authentication Reguired: YES</strong></p>
-<p><strong>Example Response:</strong></p>
-<div class="codehilite"><pre><span></span><code><span class="p">{</span>
-  <span class="nt">&quot;value&quot;</span><span class="p">:</span> <span class="kc">true</span>
-<span class="p">}</span>
-</code></pre></div>
-
-
-<p><code>POST: example.com/api/widgets/{widgetId}/detail</code></p>
+<h3 id="get-device-detail-data">Get Device Detail Data</h3>
+<p><code>GET: example.com/api/widgets/{widgetId}/detail</code></p>
 <p><strong>Authentication Reguired: YES</strong></p>
 <p><strong>Example Response:</strong></p>
 <div class="codehilite"><pre><span></span><code><span class="p">{</span>

@@ -380,7 +380,71 @@
                 
                   <h1>Widgets</h1>
                 
-                
+                <p>Foloving API calls will give you basic information all senzors connected to SimpleHome server.</p>
+<hr />
+<p><code>POST: example.com/api/widgets/{widgetId}/run</code></p>
+<p><strong>Authentication Reguired: YES</strong></p>
+<p><strong>Example Response:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+  <span class="nt">&quot;value&quot;</span><span class="p">:</span> <span class="kc">true</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p><code>POST: example.com/api/widgets/{widgetId}/check</code></p>
+<p><strong>Authentication Reguired: YES</strong></p>
+<p><strong>Example Response:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+  <span class="nt">&quot;value&quot;</span><span class="p">:</span> <span class="kc">true</span>
+<span class="p">}</span>
+</code></pre></div>
+
+
+<p><code>POST: example.com/api/widgets/{widgetId}/detail</code></p>
+<p><strong>Authentication Reguired: YES</strong></p>
+<p><strong>Example Response:</strong></p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span>
+  <span class="nt">&quot;records&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;record_id&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;subdevice_id&quot;</span><span class="p">:</span> <span class="mi">11</span><span class="p">,</span>
+      <span class="nt">&quot;value&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nt">&quot;time&quot;</span><span class="p">:</span> <span class="s2">&quot;2020-07-21 16:23:44&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;execuded&quot;</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;record_id&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;subdevice_id&quot;</span><span class="p">:</span> <span class="mi">11</span><span class="p">,</span>
+      <span class="nt">&quot;value&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;time&quot;</span><span class="p">:</span> <span class="s2">&quot;2020-07-20 18:12:39&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;execuded&quot;</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;record_id&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;subdevice_id&quot;</span><span class="p">:</span> <span class="mi">11</span><span class="p">,</span>
+      <span class="nt">&quot;value&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nt">&quot;time&quot;</span><span class="p">:</span> <span class="s2">&quot;2020-07-20 17:52:04&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;execuded&quot;</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;record_id&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;subdevice_id&quot;</span><span class="p">:</span> <span class="mi">11</span><span class="p">,</span>
+      <span class="nt">&quot;value&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nt">&quot;time&quot;</span><span class="p">:</span> <span class="s2">&quot;2020-07-20 16:02:50&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;execuded&quot;</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;record_id&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;subdevice_id&quot;</span><span class="p">:</span> <span class="mi">11</span><span class="p">,</span>
+      <span class="nt">&quot;value&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;time&quot;</span><span class="p">:</span> <span class="s2">&quot;2020-07-20 12:45:08&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;execuded&quot;</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="p">}</span>
+  <span class="p">],</span>
+  <span class="nt">&quot;comError&quot;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+  <span class="nt">&quot;lastConnectionTime&quot;</span><span class="p">:</span> <span class="s2">&quot;1 day ago&quot;</span>
+<span class="p">}</span>
+</code></pre></div>
                 
               
               

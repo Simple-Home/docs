@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>https://simple-home.github.io/docs/Google-Home/</loc>
-     <lastmod>2020-07-21</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://simple-home.github.io/docs/Instalation/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
@@ -25,6 +21,10 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://simple-home.github.io/docs/devices/multisenzor/</loc>
+     <lastmod>2020-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://simple-home.github.io/docs/integrations/Google-Home/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url>

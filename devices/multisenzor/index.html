@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://simple-home.github.io/docs/devices/door-window/">
+        <link rel="canonical" href="https://simple-home.github.io/docs/devices/multisenzor/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Door window - SimpleHome-Wiki</title>
+        <title>Multisenzor - SimpleHome-Wiki</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -57,11 +57,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active">Door window</a>
+    <a href="../doorwindow/" class="dropdown-item">Doorwindow</a>
 </li>
                                     
 <li>
-    <a href="../multi-senzor/" class="dropdown-item">Multi senzor</a>
+    <a href="./" class="dropdown-item active">Multisenzor</a>
 </li>
                                 </ul>
                             </li>
@@ -74,17 +74,17 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../../api/widgets/" class="nav-link">
+                                <a rel="prev" href="../doorwindow/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../multi-senzor/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://github.com/Simple-Home/docs/tree/gh-pages/edit/master/docs/devices/door-window.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/Simple-Home/docs/tree/gh-pages/edit/master/docs/devices/multisenzor.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -128,29 +128,27 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p>Do you always have to check wheter you have closed the window? Or want to check if the door is open? Smart_Home is here to help! <br></p>
-<p>Reed switches turn on (or off depending on type) when a magnet is nearby. Using them you can easily check if something is in right position (e.g. the door is closed). <br></p>
-<p>By following this Wiki you should be able to check states of these switches from anywhere you want.</p>
-<hr />
 <h2 id="first-step">First step</h2>
-<p>In order to use reed switches with Smart_Home, you need to <strong>upload <a href="https://github.com/GamerClassN7/Smart_Home/blob/dev/_FIRMWARE/firmwares/ESP01_Basic_DOORWINDOW/ESP01_BASIC_DOORWINDOW/ESP01_BASIC_DOORWINDOW.ino">this</a> code to your ESP</strong> (or compatible) board. <br>
-Steps in doing this are the same as in <a href="https://github.com/GamerClassN7/Smart_Home/wiki/Uploading-the-code-to-your-ESP-board">uploading the regular firmware</a>.</p>
+<p>Download latest <a href="https://github.com/GamerClassN7/Smart_Home/releases"><strong>release</strong></a>. <br></p>
+<p><a href="">there will be a screenshots of release here</a> <br></p>
 <h2 id="second-step">Second step</h2>
-<p>Wire reed switch to your ESP (or compatible) according to this schematic:</p>
-<p><img src="https://github.com/GamerClassN7/Smart_Home/blob/dev/_FIRMWARE/firmwares/ESP01_Basic_DOORWINDOW/Untitled%20Sketch%202_schem.png" height="500" width="500"></p>
-<hr />
-<p>Or, if you're more familiar with diagrams:</p>
-<p><img src="https://github.com/GamerClassN7/Smart_Home/blob/dev/_FIRMWARE/firmwares/ESP01_Basic_DOORWINDOW/Untitled%20Sketch%202_bb.png" height="620" width="420"></p>
+<p>Then, unzip it (e.g. using WinRar or 7zip). You should see <a href="">some files and folders</a> <br></p>
+<p><a href="">there will be a screenshot of some files and folders</a> <br></p>
 <h2 id="third-step">Third step</h2>
-<p>If you want, you can place the elements on a PCB. <a href="https://github.com/GamerClassN7/Smart_Home/blob/dev/_FIRMWARE/firmwares/ESP01_Basic_DOORWINDOW/Gerber_PCB_Door_Senzor.zip?raw=true">Here are ready to use gerber files</a>. </p>
+<p>Locate file named <code>ESP_OS_NODE_STABLE.ino</code>. <br>
+Open it with Arduino IDE, here you will need to change <a href="">something</a> <br></p>
+<p><a href="">there will be a screenshot of something</a> <br></p>
+<p>After doing that, select your ESP/NodeMCU from board list and COM ports and just click <code>Upload</code> to upload the code.</p>
+<p><a href="">there will be a screenshot of upload button</a> <br></p>
 <h2 id="fourth-step">Fourth step</h2>
-<p>If you have access to 3D Printer, you can <a href="https://github.com/GamerClassN7/Smart_Home/tree/dev/_FIRMWARE/firmwares/ESP01_Basic_DOORWINDOW/3D_Print_CASE">download gcode here</a> and print the case.</p>
+<p>Connect your sensors (e.g. DHT11, LDR etc.) to your board.</p>
+<p>Example diagram of connecting multiple sensors: <br>
+<img src="https://i.ytimg.com/vi/Yv80KrQElYo/maxresdefault.jpg" height="480" width="700"></p>
 <hr />
 <p>If you need more help with that you can always message us at our <a href="https://discord.gg/6BPErAS"><img alt="Discord" src="https://img.shields.io/discord/604697675430101003.svg?color=Blue&amp;label=Discord&amp;logo=Discord" /></a>.</p>
 <p>After doing all above steps, you can plug-in your board and open Arduino IDE Serial Monitor to check if everything is working correctly.</p>
 <p><strong>With that all done your board is ready to send data to your Smart_Home web server.</strong> <br>
-If you need help with that, read <a href="https://github.com/GamerClassN7/Smart_Home/wiki/Creating-web-server">Creating web server</a> Wiki.<br>
-Good luck on expanding your Smart_Home system!</p></div>
+If you need help with that, read <a href="https://github.com/GamerClassN7/Smart_Home/wiki/Creating-web-server">Creating web server</a> Wiki.</p></div>
             </div>
         </div>
 

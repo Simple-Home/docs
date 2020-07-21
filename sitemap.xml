@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
+     <loc>https://simple-home.github.io/docs/</loc>
+     <lastmod>2020-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
      <loc>https://simple-home.github.io/docs/Instalation/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
@@ -16,11 +20,11 @@
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://simple-home.github.io/docs/devices/doorwindow/</loc>
+     <loc>https://simple-home.github.io/docs/devices/Door-Window/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://simple-home.github.io/docs/devices/multisenzor/</loc>
+     <loc>https://simple-home.github.io/docs/devices/Multisenzor/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>

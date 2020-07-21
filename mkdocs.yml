@@ -1,5 +1,8 @@
 site_name: SimpleHome-Wiki
-repo_url: https://github.com/Simple-Home/docs/
+
+repo_name: SimpleHome-Server
+repo_url: https://github.com/SimpleHome-Server/
+
 site_url: https://simple-home.github.io/docs/
 edit_uri: edit/master/docs/
 theme:

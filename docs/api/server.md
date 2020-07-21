@@ -1,3 +1,7 @@
+Foloving API call will giwe you basic information abouth server status and utilization.
+
+***
+
 `GET: example.com/home-update/api/server`
 
 **Authentication Reguired: YES**

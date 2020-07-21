@@ -3,3 +3,7 @@ repo_url: https://github.com/Simple-Home/docs/tree/gh-pages/
 site_url: https://simple-home.github.io/docs/
 theme:
   name: material
+  logo: https://raw.githubusercontent.com/Simple-Home/SimpleHome-Client/master/public/img/logo-login.svg
+markdown_extensions:
+  - codehilite
+  

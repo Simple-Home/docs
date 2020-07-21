@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://simple-home.github.io/docs/api/api/">
+        <link rel="canonical" href="https://simple-home.github.io/docs/devices/multi-senzor/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Api - SimpleHome-Wiki</title>
+        <title>Multi senzor - SimpleHome-Wiki</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -39,20 +39,29 @@
                             <li class="navitem">
                                 <a href="../../license/" class="nav-link">License</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Api <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active">Api</a>
+    <a href="../../api/server/" class="dropdown-item">Server</a>
 </li>
                                     
 <li>
-    <a href="../server/" class="dropdown-item">Server</a>
+    <a href="../../api/widgets/" class="dropdown-item">Widgets</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Devices <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../door-window/" class="dropdown-item">Door window</a>
 </li>
                                     
 <li>
-    <a href="../widgets/" class="dropdown-item">Widgets</a>
+    <a href="./" class="dropdown-item active">Multi senzor</a>
 </li>
                                 </ul>
                             </li>
@@ -65,17 +74,17 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../../license/" class="nav-link">
+                                <a rel="prev" href="../door-window/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../server/" class="nav-link">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://github.com/Simple-Home/docs/tree/gh-pages/edit/master/docs/api/api.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/Simple-Home/docs/tree/gh-pages/edit/master/docs/devices/multi-senzor.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -95,12 +104,51 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
+            <li class="nav-item" data-level="2"><a href="#first-step" class="nav-link">First step</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#second-step" class="nav-link">Second step</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#third-step" class="nav-link">Third step</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#fourth-step" class="nav-link">Fourth step</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h3 id="api">API</h3></div>
+<h2 id="first-step">First step</h2>
+<p>Download latest <a href="https://github.com/GamerClassN7/Smart_Home/releases"><strong>release</strong></a>. <br></p>
+<p><a href="">there will be a screenshots of release here</a> <br></p>
+<h2 id="second-step">Second step</h2>
+<p>Then, unzip it (e.g. using WinRar or 7zip). You should see <a href="">some files and folders</a> <br></p>
+<p><a href="">there will be a screenshot of some files and folders</a> <br></p>
+<h2 id="third-step">Third step</h2>
+<p>Locate file named <code>ESP_OS_NODE_STABLE.ino</code>. <br>
+Open it with Arduino IDE, here you will need to change <a href="">something</a> <br></p>
+<p><a href="">there will be a screenshot of something</a> <br></p>
+<p>After doing that, select your ESP/NodeMCU from board list and COM ports and just click <code>Upload</code> to upload the code.</p>
+<p><a href="">there will be a screenshot of upload button</a> <br></p>
+<h2 id="fourth-step">Fourth step</h2>
+<p>Connect your sensors (e.g. DHT11, LDR etc.) to your board.</p>
+<p>Example diagram of connecting multiple sensors: <br>
+<img src="https://i.ytimg.com/vi/Yv80KrQElYo/maxresdefault.jpg" height="480" width="700"></p>
+<hr />
+<p>If you need more help with that you can always message us at our <a href="https://discord.gg/6BPErAS"><img alt="Discord" src="https://img.shields.io/discord/604697675430101003.svg?color=Blue&amp;label=Discord&amp;logo=Discord" /></a>.</p>
+<p>After doing all above steps, you can plug-in your board and open Arduino IDE Serial Monitor to check if everything is working correctly.</p>
+<p><strong>With that all done your board is ready to send data to your Smart_Home web server.</strong> <br>
+If you need help with that, read <a href="https://github.com/GamerClassN7/Smart_Home/wiki/Creating-web-server">Creating web server</a> Wiki.</p></div>
             </div>
         </div>
 

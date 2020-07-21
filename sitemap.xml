@@ -8,15 +8,19 @@
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://simple-home.github.io/docs/api/api/</loc>
-     <lastmod>2020-07-21</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://simple-home.github.io/docs/api/server/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://simple-home.github.io/docs/api/widgets/</loc>
+     <lastmod>2020-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://simple-home.github.io/docs/devices/door-window/</loc>
+     <lastmod>2020-07-21</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://simple-home.github.io/docs/devices/multi-senzor/</loc>
      <lastmod>2020-07-21</lastmod>
      <changefreq>daily</changefreq>
     </url>
